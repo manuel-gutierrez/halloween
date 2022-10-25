@@ -1,0 +1,151 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(./assets/fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(./assets/fonts/Roboto/Roboto-Black.ttf) format('truetype');
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(./assets/fonts/Roboto/Roboto-Medium.ttf) format('truetype');
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(./assets/fonts/Roboto/Roboto-Light.ttf) format('truetype');
+  font-style: light;
+}
+
+#app {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#app,
+body {
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+body {
+  font-family: 'Roboto' 'sans-serif';
+}
+
+p {
+  font-family: 'Roboto' 'sans-serif';
+  font-style: light;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Roboto' 'sans-serif';
+  font-weight: black;
+  line-height: 41px;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+h2,
+h3 {
+  font-family: 'Roboto' 'sans-serif';
+  font-weight: light;
+  line-height: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Grid */
+.container {
+  padding: 25px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 1;
+  margin: 10px;
+  padding: 10px;
+}
+
+.col-1 {
+  max-width: calc(100% / 12);
+}
+
+.col-2 {
+  max-width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+  max-width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+  max-width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+  max-width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+  max-width: calc(100% / 2);
+}
+
+
+/* Hero Component */
+.hero {
+  background-color: #070707;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: -10vh;
+}
+
+.hero__image {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+/* Title Component */
+
+.name {
+  padding: 0px;
+  margin: auto;
+  margin-top: 41px;
+}
+
+.title {
+  padding: 0px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+/* Profile Description */
+
+p {
+  margin-top: 10px;
+}
