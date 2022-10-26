@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import Heading from './components/heading.vue'
-import Title from './components/title.vue';
-import Paragraph from './components/paragraph.vue'
+import Heading from './components/Heading.vue'
+import Title from './components/Title.vue';
+import Paragraph from './components/Paragraph.vue'
 import { backgroundColorChange} from './assets/js/intersection.js'
 
 export default {
